@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vuokaavio</title>
+</head>
+<body>
+        <input id="nimi" type="text" placeholder="Nimi">
+        <p id="virhe_nimi"></p><br>
+
+        <input id="tilinum" type="text" placeholder="Tilinumero">
+        <p id="virhe_tili"></p><br>
+    
+        <input id="summa" type="number" placeholder="Summa" min="0">
+        <p id="virhe_summa"></p><br>
+    
+        <input id="date" type="date">
+        <p id="virhe_date"></p><br>
+
+        <input id="avain" type="number" placeholder="Avainluku" min="0" max="99999999">
+        <p id="virhe_avain"></p><br>
+    
+        <select id="valitse">
+            <option value="viitenumero">Viite</option>
+            <option value="viesti">Viesti</option>
+        </select>
+        <input id="kentta" type="text" placeholder="Viesti/Viite">
+        <p id="virhe_valinta"></p>
+        
+        <button value="Testaa" type="button" onclick="check()">maska</button>
+<script src="java.js"></script>
+</body>
+</html>
