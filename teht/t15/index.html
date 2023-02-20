@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript sivuni</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+</head>
+
+<body>
+    <nav class="navigointi">
+        <div class="max-width">
+            <ul class="menu">
+                <li><a href="https://public.bc.fi/s2101019/ohjelmointi" style="color: #000000;" class="menu-btn">koti</a></li>
+                <li><a href="https://public.bc.fi/s2101019/ohjelmointi/teht/"" style="color:#000000;" class="menu-btn">Tehtävät</a></li>
+                <li><a href="" style="color:#000000;" class="menu-btn">luvut-ohjelma</a></li>
+                <li><a href="" style="color:#000000;" class ="menu btn">robotto-ohjelma</a></li>
+                <li><a href="" style="color:#000000;" class ="menu btn">ventti-ohjelma</a></li>
+                <li><a href="https://www.bc.fi/" style="color:#000000;" class="menu-btn">yhteystiedot</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Koti osuus-->
+
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+ 
+                <h1 style="color:rgb(0, 0, 0);margin-left:30px;">
+
+                </h1>
+                
+            </div>
+        </div>
+    </section>
+  
+    
+
+
+ 
+
+    <!-- copyright -->
+
+
+    
+    <form action="" method="post">
+        <input type="text" pattern="[A-Za-z]{3}" name="koodi">
+        <input type="submit" value="lähetä">
+    </form>
+    <form action="" method="post" name="sähköposti" onsubmit="return tarkistus()">
+        <input type="text" name="sähköposti1">
+        <input type="submit" value="palauta">
+    </form>
+    <script src="java.js"></script>
+    
+    <footer id="footer">
+        <form>
+            <h2>Contact me</h2>
+            <div class="form-group">
+                <label for="name">Nimi: </label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Sähköposti: </label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="form-group">
+                <label for="message">Palautetta: </label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+            <button type="submit">Lähetä</button>
+        </form>
+        <p class="text-center">Copyright © - Artturi Maanojan 2021</p>
+        <a class="text-center" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">kikkaa minua</a>
+    </footer>
+</body>
