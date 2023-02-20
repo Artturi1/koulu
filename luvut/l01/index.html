@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript sivuni</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.scss">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+</head>
+
+<body>
+    <nav class="navigointi">
+        <div class="max-width">
+            <ul class="menu">
+                <li><a href="https://public.bc.fi/s2101019/ohjelmointi" style="color: #000000;" class="menu-btn">koti</a></li>
+                <li><a href="https://public.bc.fi/s2101019/ohjelmointi/teht/"" style="color:#000000;" class="menu-btn">Tehtävät</a></li>
+                <li><a href="https://public.bc.fi/s2101019/ohjelmointi/luvut" style="color:#000000;" class="menu-btn">luvut-ohjelma</a></li>
+                <li><a href="https://public.bc.fi/s2101019/ohjelmointi/robotto" style="color:#000000;" class ="menu btn">robotto-ohjelma</a></li>
+                <li><a href="https://public.bc.fi/s2101019/ohjelmointi/ventti" style="color:#000000;" class ="menu btn">ventti-ohjelma</a></li>
+                <li><a href="https://www.bc.fi/" style="color:#000000;" class="menu-btn">yhteystiedot</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <!-- Koti osuus-->
+
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+ 
+                <h1>
+                    <form action="" method="post" name="lasku">
+                        <input type="number" min="1" max="10" id="number1" name="numero1" required>
+                        <input type="number" min="1" max="10" id="number2" name="numero2" required>
+                        <input type="button" value="laske" onclick="funktio()">
+                        <input type="button" value="tyhjennä" onclick="clear1()">
+                    </form>
+                    <p id="p1"> </p>
+                    <p id="p2"> </p>
+                    <p id="p3"> </p>
+                    <p id="p4"> </p>
+                    <p id="p5"> </p>
+
+                </h1>
+             
+            </div>
+        </div>
+    </section>
+
+   
+    
+
+ 
+
+    <!-- copyright -->
+
+
+ 
+    <script src="skriptit.js"></script>
+</body>

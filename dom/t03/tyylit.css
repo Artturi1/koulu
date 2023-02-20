@@ -1,0 +1,29 @@
+p {
+    font-weight: bold;
+    font-size: 20pt;
+}
+ 
+button{
+    width: 170px;
+}
+ 
+pre {
+    width: 200px;
+    height: 20px;
+    font-weight: bold;
+    font-size: 14pt;
+    padding: 10px;
+    border: solid orange 2px;
+}
+ 
+.punainen {
+    color:red;
+}
+ 
+.sininen{
+    color:blue;
+}
+ 
+.sininen.punainen, .punainen.sininen {
+    color:blueviolet;
+}
